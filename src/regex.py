@@ -11,5 +11,5 @@ for str_item in str_list:
     m = re.search(r"0[-\d]{9,12}", str_item)
     if m:
         phone_number.append(m.group())
-    
+        
 print(phone_number)
