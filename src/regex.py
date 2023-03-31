@@ -1,5 +1,5 @@
 import re
-import scrape
+from libs import scrape
 
 str_list = scrape.get_all_str()
 
